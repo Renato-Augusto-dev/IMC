@@ -17,13 +17,13 @@ public class Imc {
         System.out.println(imc);
         if (imc < 18.5) {
             System.out.println("Você esta abaixo do peso ideal");
-        } else if (imc > 18.5 && imc <= 24.9) {
+        } else if (imc > 18.5 && imc <= 25) {
             System.out.printf("Você esta no peso ideal ");
-        } else if (imc > 25.0 && imc <= 29.9) {
+        } else if (imc > 25.0 && imc <= 30) {
             System.out.println("Você esta levemente acima do peso");
-        } else if (imc > 30 && imc <=34.9) {
+        } else if (imc > 30 && imc <=35) {
             System.out.println("Você esta com obesidade grau 1");
-        } else if (imc > 35 && imc <=39.9) {
+        } else if (imc > 35 && imc <=40) {
             System.out.println("Você esta com obesidade grau 2");
         } else if (imc > 40) {
             System.out.println("Você esta com obesidade grau 3");
